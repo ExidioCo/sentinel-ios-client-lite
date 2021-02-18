@@ -28,7 +28,6 @@
 		D476108125110D4600B60511 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D476108025110D4600B60511 /* ContentView.swift */; };
 		D47610832511101F00B60511 /* Diagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47610822511101F00B60511 /* Diagnostics.swift */; };
 		D47610852511103500B60511 /* SupportMail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47610842511103500B60511 /* SupportMail.swift */; };
-		D484494225146CD500D41C47 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = D484494125146CD500D41C47 /* SwiftUIX */; };
 		D484495825146D6900D41C47 /* NetworkKit in Frameworks */ = {isa = PBXBuildFile; productRef = D484495725146D6900D41C47 /* NetworkKit */; };
 		D49088AD24E4BF0300B0FF55 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49088AC24E4BF0300B0FF55 /* SettingsView.swift */; };
 		D4B9480C24E2C7A400EE6BF2 /* SentinelAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B9480B24E2C7A400EE6BF2 /* SentinelAPI.swift */; };
@@ -132,7 +131,6 @@
 			files = (
 				D438CF62259DE41F007CFD3C /* SwiftUIX in Frameworks */,
 				D484495825146D6900D41C47 /* NetworkKit in Frameworks */,
-				D484494225146CD500D41C47 /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +299,6 @@
 			);
 			name = Sentinel;
 			packageProductDependencies = (
-				D484494125146CD500D41C47 /* SwiftUIX */,
 				D484495725146D6900D41C47 /* NetworkKit */,
 				D438CF61259DE41F007CFD3C /* SwiftUIX */,
 			);
@@ -317,7 +314,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1200;
-				ORGANIZATIONNAME = Test;
+				ORGANIZATIONNAME = "Exidio Corp";
 				TargetAttributes = {
 					14DBEFAC21FB8DCE00100FFE = {
 						CreatedOnToolsVersion = 10.1;
@@ -565,7 +562,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Targets/Sentinel/Supporting Files/Bundle Resources/Sentinel.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = G49975RHAR;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)/**";
 				INFOPLIST_FILE = "Targets/Sentinel/Supporting Files/Bundle Resources/Info.plist";
@@ -594,7 +591,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Targets/Sentinel/Supporting Files/Bundle Resources/Sentinel.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = G49975RHAR;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)/**";
 				INFOPLIST_FILE = "Targets/Sentinel/Supporting Files/Bundle Resources/Info.plist";
@@ -659,10 +656,6 @@
 		D438CF61259DE41F007CFD3C /* SwiftUIX */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D438CF60259DE41F007CFD3C /* XCRemoteSwiftPackageReference "SwiftUIX" */;
-			productName = SwiftUIX;
-		};
-		D484494125146CD500D41C47 /* SwiftUIX */ = {
-			isa = XCSwiftPackageProductDependency;
 			productName = SwiftUIX;
 		};
 		D484495725146D6900D41C47 /* NetworkKit */ = {
